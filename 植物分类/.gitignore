@@ -1,0 +1,11 @@
+﻿__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# 数据与权重不入库
+crop256/
+models/
+*.pth
+*.npy
+plant_data/
+# Kaggle 临时产物
+plant_backup.zip

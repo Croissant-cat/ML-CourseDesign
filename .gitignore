@@ -1,0 +1,68 @@
+# ============ 代码仓库：只放四个任务的代码与提交文件 ============
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# ---------- 大文件：训练权重、数组缓存、压缩包 ----------
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+*.npz
+*.npy
+*.zip
+*.tar
+*.tar.gz
+plant_backup.zip
+
+# ---------- 比赛数据与中间产物 ----------
+**/crop256/
+**/plant_data/
+**/models/
+**/fer_data/
+**/checkpoints/
+**/archive/
+**/outputs/
+**/splits/
+**/data/
+**/.mplcache/
+**/.torchcache/
+**/backup_tmp/
+
+# ---------- 报告与写作过程文件（不入库，报告单独提交） ----------
+报告/
+交接_*.md
+任务*会话开场指令.md
+
+# ---------- 报告生成脚本与临时排查文件 ----------
+_*.py
+_*.txt
+_*.pdf
+_*.png
+_*.json
+_*/
+_pages*.txt
+_tmp_*.txt
+
+# ---------- 早期目录命名（已重命名为 任务X_xxx） ----------
+图像情感分类/
+医学影像分割/
+中心凹检测定位/
+植物识别过程图片/
+
+# ---------- 重复的早期提交文件，只保留最终的 submission.csv ----------
+submission (1).csv
+submission (2).csv
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

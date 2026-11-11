@@ -1,0 +1,11 @@
+# 任务二：图像情感分类
+# 运行环境：Kaggle Notebook（GPU T4 × 2，实际使用 1 张），Python 3.13
+# 说明：Kaggle 镜像已预装下列库，本地复现时按此版本区间安装即可。
+torch>=2.4
+torchvision>=0.19
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+Pillow>=10.0
+matplotlib>=3.8
+tqdm>=4.66

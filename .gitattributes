@@ -1,0 +1,5 @@
+# 提交文件按原始字节保存：Kaggle 下载的 submission.csv 是 LF 换行，
+# 加上 core.autocrlf=true 会把检出结果改成 CRLF，md5 与 README 里登记的不一致。
+# 这条属性只作用于任务三的最终提交文件，其他文件维持原状。
+任务三_中心凹检测定位/submission.csv -text
+任务四_医学影像分割/submission.csv -text

@@ -1,0 +1,22 @@
+# 数据与权重
+data/
+*.pth
+*.pt
+*.onnx
+*.npy
+*.npz
+*.zip
+*.csv.bak
+
+# 运行产物
+checkpoints/
+outputs/
+ckpt*/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db

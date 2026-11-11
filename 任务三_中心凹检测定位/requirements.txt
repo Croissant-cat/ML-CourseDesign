@@ -1,0 +1,10 @@
+# 任务三：中心凹检测定位
+# 运行环境：Kaggle Notebook（GPU T4 × 1），Python 3.13，torch 2.11.0+cu128
+# 说明：Kaggle 镜像已预装下列库，本地复现时按此版本区间安装即可。
+torch>=2.4
+torchvision>=0.19
+numpy>=1.26
+pandas>=2.0
+opencv-python>=4.9
+Pillow>=10.0
+matplotlib>=3.8
